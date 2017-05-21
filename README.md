@@ -1,4 +1,4 @@
-# esdoc-babel-plugin
+# esdoc-babeljs-plugin
 
 An [ESDoc](https://esdoc.org/) plugin which loads and transforms your javascript based on your project [Babel config](http://babeljs.io/docs/usage/babelrc/). This allows you to write *next-gen* JS :metal:,
 using the latest and greatest features (e.g. [Flowtype](https://flow.org), ES2015+), while providing the benefits of having auto-generated documentation.
