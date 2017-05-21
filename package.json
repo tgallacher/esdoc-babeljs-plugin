@@ -1,0 +1,44 @@
+{
+  "name": "esdoc-babeljs-plugin",
+  "version": "0.0.0",
+  "description": "An ESDoc plugin that provides support for all Babel transforms.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgallacher/esdoc-babeljs-plugin.git"
+  },
+  "keywords": [
+    "esdoc",
+    "flow",
+    "flowtype",
+    "docs",
+    "jsdoc",
+    "babel",
+    "babelrc"
+  ],
+  "author": "Tom Gallacher <thomas.gallacher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgallacher/esdoc-babeljs-plugin/issues"
+  },
+  "homepage": "https://github.com/tgallacher/esdoc-babeljs-plugin",
+  "dependencies": {
+    "babel-core": "6.9.1",
+    "find-babel-config": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
