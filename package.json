@@ -1,6 +1,6 @@
 {
   "name": "esdoc-babeljs-plugin",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An ESDoc plugin that provides support for all Babel transforms.",
   "main": "index.js",
   "scripts": {
